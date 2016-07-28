@@ -8,9 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "angular": "^1.5.8",
-    "angular-animate": "^1.5.8",
-    "angular-route": "^1.5.8"
-  }
+  "devDependencies": {}
 }
