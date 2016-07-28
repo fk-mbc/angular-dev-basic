@@ -1,19 +1,35 @@
 <!doctype html>
-<html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="" ng-app="basicApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Angular Basic Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+  <body>
+    <h1>AngularJS Basic Template</h1>
+    <p>This template includes:</p>
+    <ul>
+      <li>server</li>
+      <li>livereload</li>
+      <li>sass</li>
+      <li>bower injector (wiredep)</li>
+      <li>file injector for js files</li>
+    </ul>
+    <div ng-view=""></div>
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <h1>Session 1</h1>
-        <p>Hello world!</p>
-
-        <script src="scripts/app.js"></script>
-    </body>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <!-- endbower -->
+    <!-- injector:js -->
+    <script src="/scripts/app.module.js"></script>
+    <script src="/scripts/home/home.controller.js"></script>
+    <!-- endinjector -->
+  </body>
 </html>
