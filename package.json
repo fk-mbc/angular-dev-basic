@@ -1,8 +1,8 @@
 {
-  "name": "fe-dev-angular-basic",
-  "version": "1.0.0",
+  "name": "fe-dev-angularjs-basic",
+  "version": "0.1.0",
   "description": "Basic templat for simple angularjs tryouts",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

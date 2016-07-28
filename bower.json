@@ -1,8 +1,9 @@
 {
-  "name": "fe-dev-angular-basic",
+  "name": "fe-dev-angularjs-basic",
   "description": "Basic templat for simple angularjs tryouts",
   "main": "index.js",
   "license": "ISC",
+  "author": "fk-mbc",
   "homepage": "",
   "ignore": [
     "**/.*",
